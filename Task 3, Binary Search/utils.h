@@ -10,7 +10,7 @@
 
 @return: uint8_t, index of the value if found and NULL if not found
 */
-uint8_t binarySearch(uint32_t *arr, uint8_t size, uint32_t number);
+int binarySearch(uint32_t *arr, uint8_t size, uint32_t number);
 
 /*
 @desc: Sort a given array from the smallest to largest values using bubble sort

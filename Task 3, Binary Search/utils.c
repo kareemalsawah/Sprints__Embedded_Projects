@@ -1,6 +1,6 @@
 #include "utils.h"
 
-uint8_t binarySearch(uint32_t *arr, uint8_t size, uint32_t number){
+int binarySearch(uint32_t *arr, uint8_t size, uint32_t number){
     // Sort array and get indices to get the position in the original unsorted array
     uint32_t *indices_arr = bubble_sort(arr,size);
 
@@ -10,7 +10,7 @@ uint8_t binarySearch(uint32_t *arr, uint8_t size, uint32_t number){
         mid = (low+top)/2; // Mid index
 
         if(arr[mid]==number){
-            uint8_t to_return = indices_arr[mid]; // Found number, get its index in the original unsorted array
+            int to_return = indices_arr[mid]; // Found number, get its index in the original unsorted array
             free(indices_arr); // Free memory from indices array
             return to_return; // Return result
         }
@@ -44,8 +44,7 @@ uint32_t* bubble_sort(uint32_t *arr, uint8_t size){
             }
         }
     }
-    re
-    turn indices_arr;
+    return indices_arr;
 }
 
 void swap(uint32_t *element1, uint32_t *element2){
