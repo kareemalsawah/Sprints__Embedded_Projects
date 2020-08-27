@@ -7,3 +7,4 @@ Current Projects Implemented:
 * Binary Search in C, [Video](https://drive.google.com/file/d/1-Mn_aVi8qeoAAKooZ3oBouCiPUteF2A5/view?usp=sharing)
 * ATM Terminal in C, [Video](https://drive.google.com/file/d/186YIIJoFwV-zOAGmAlQokrCYmgZl28Yb/view?usp=sharing)
 * DIO Drivers, Toggle LED, [Video](https://drive.google.com/file/d/1EIJovRXHPmkUJQQoKpim1BWL4JqGnC1z/view?usp=sharing)
+* Timers, Toggle LED, [Video](https://drive.google.com/file/d/1RuZVM6_Aa_4rAAkI6c-tnJonAX7uHtN9/view?usp=sharing)
